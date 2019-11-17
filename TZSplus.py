@@ -156,7 +156,7 @@ class splitbase():
 
     def savepatches(self, resizeimg, objects, subimgname, left, up, right, down):
         outdir = os.path.join(self.outlabelpath, subimgname + '.txt')
-        mask_p  oly = []
+        # mask_poly = []
         imgpoly = shgeo.Polygon([(left, up), (right, up), (right, down),
                                  (left, down)])
         with codecs.open(outdir, 'w', self.code) as f_out:

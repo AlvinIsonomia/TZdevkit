@@ -248,6 +248,6 @@ class splitbase():
 
 if __name__ == '__main__':
     # example usage of ImgSplit
-    split = splitbase(r'example',
-                       r'examplesplit')
+    split = splitbase(r'//data/datasets/DOTA/TZ',
+                       r'//data/datasets/DOTA/TZ/split')
     split.splitdata(1)
